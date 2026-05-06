@@ -136,7 +136,7 @@ function Index() {
                 <div className="text-sm text-muted-foreground">Thinking…</div>
               )}
             </div>
-          </ScrollArea>
+          </div>
 
           <form onSubmit={handleSend} className="flex gap-2 border-t p-3">
             <Input
