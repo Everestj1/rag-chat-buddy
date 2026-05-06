@@ -100,7 +100,7 @@ function Index() {
             </Button>
           </header>
 
-          <ScrollArea className="flex-1" viewportRef={scrollRef as any}>
+          <div ref={scrollRef} className="flex-1 overflow-y-auto">
             <div className="space-y-4 p-4">
               {messages.length === 0 && (
                 <div className="py-16 text-center text-sm text-muted-foreground">
